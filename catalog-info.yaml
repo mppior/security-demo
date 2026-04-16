@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: security-demo
+  description: Repositório de teste para validar GHAS no RHDH
+  annotations:
+    github.com/project-slug: 'mppior/security-demo'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:mppior
